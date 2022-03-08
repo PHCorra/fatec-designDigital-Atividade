@@ -1,0 +1,101 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    display: flex;                  /* establish flex container */
+    flex-direction: row;            /* default value; can be omitted */
+    flex-wrap: nowrap;              /* default value; can be omitted */
+    justify-content: space-between
+    ; /* switched from default (flex-start, see below) */
+    background-color: lightyellow;
+  }
+
+  /*
+container
+*/
+.container > div {
+  width: 100%;
+  height: 100vh;
+  padding: 0;
+}
+/*
+div colors
+*/
+.cold-color {
+    background-color: #4776A1;
+    position: relative;
+    
+}
+
+.warm-color {
+    background-color: #A62C2A;
+    position: relative;
+}
+
+.primary-color {
+    background-color: #FFFF00;
+    position: relative;
+}
+
+.secondary-color {
+    background-color: #9400d3;
+    position: relative;
+}
+/*
+---- ending ----
+*/
+
+.color-name {
+    position: absolute;
+    bottom: 50%;
+    right: 30%;
+    font-weight: bold;
+    font-size: 2em;
+    
+}
+
+.color-hex {
+    position: absolute;
+    bottom: 30%;
+    right: 30%;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+
+.color-name-cold {
+    position: absolute;
+    bottom: 50%;
+    right: 40%;
+    font-weight: bold;
+    font-size: 2em;
+    
+}
+
+.color-name-warm {
+    position: absolute;
+    bottom: 50%;
+    right: 35%;
+    font-weight: bold;
+    font-size: 2em;
+    
+}
+
+.color-name-primary {
+    position: absolute;
+    bottom: 50%;
+    right: 33%;
+    font-weight: bold;
+    font-size: 2em;
+    
+}
+
+.color-name-secondary {
+    position: absolute;
+    bottom: 50%;
+    right: 29%;
+    font-weight: bold;
+    font-size: 2em;
+    
+}
